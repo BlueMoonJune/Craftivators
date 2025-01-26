@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "craftivators",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Craftivators",
   "description": "This mod aims to help new BTA modders.",
   "authors": [
-    "Turnip Labs"
+    "BlueMoonJune"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"bluemoonjune.craftivators.Craftivators"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"bluemoonjune.craftivators.Craftivators"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"bluemoonjune.craftivators.Craftivators"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"bluemoonjune.craftivators.Craftivators"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"craftivators.mixins.json"
   ],
 
   "depends": {

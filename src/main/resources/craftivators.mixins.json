@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bluemoonjune.craftivators.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "server": [
+    "BlockLogicActivatorMixin",
+    "BlockLogicWorkbenchMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
